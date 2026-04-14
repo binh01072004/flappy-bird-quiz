@@ -125,7 +125,7 @@ godModeToggle.addEventListener('change', (e) => {
 
 const bird = {
     x: 50, y: 150, width: 30, height: 30,
-    velocity: 0, gravity: 0.15, jump: -4.5,
+    velocity: 0, gravity: 0.08, jump: -3,
     draw() {
         if (godMode) {
             // Nếu bật bất tử thì vẽ màu đỏ
@@ -155,7 +155,7 @@ const bird = {
 };
 
 const pipes = {
-    items: [], width: 50, gap: 180, dx: 1.2,
+    items: [], width: 50, gap: 250, dx: 1.2,
     draw() {
         ctx.fillStyle = "#2ecc71";
         for (let i = 0; i < this.items.length; i++) {
@@ -165,7 +165,7 @@ const pipes = {
         }
     },
     update() {
-        if (frames % 150 === 0) { 
+        if (frames % 200 === 0) { 
             let top = Math.random() * (canvas.height - this.gap - 100) + 50;
             this.items.push({ x: canvas.width, top: top, passed: false });
         }
