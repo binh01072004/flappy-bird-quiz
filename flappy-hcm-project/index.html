@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bác Hồ - Quiz Game</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+
+<div id="game-wrapper">
+    <div id="admin-panel">
+        <label><input type="checkbox" id="godModeToggle"> [Admin] Bất tử</label>
+    </div>
+
+    <div id="game-container">
+        
+        <div id="leaderboard" style="position: absolute; top: 10px; left: 10px; background: rgba(255,255,255,0.85); padding: 10px; border-radius: 8px; z-index: 10; width: 150px;">
+            <h3 style="margin: 0 0 5px 0; color: #d35400; font-size: 16px;">🏆 Học Bá</h3>
+            <ol id="top-players-list" style="margin: 0; padding-left: 20px; font-size: 13px; color: #333; font-weight: bold;">
+                <li>Đang tải...</li>
+            </ol>
+        </div>
+
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+
+        <div id="start-screen" class="overlay active">
+            <h1>Vượt Ải Lịch Sử</h1>
+            <p>Qua mỗi cột sẽ có 1 câu hỏi.</p>
+            
+            <input type="text" id="player-name" placeholder="Nhập tên của bạn..." style="padding: 10px; margin-bottom: 15px; border-radius: 5px; border: none; font-size: 16px; text-align: center; font-weight: bold; width: 200px;">
+            
+            <button id="btn-start">Vào thi!</button>
+        </div>
+
+        <div id="quiz-screen" class="overlay">
+            <div id="quiz-box">
+                <h3 id="question-text">Câu hỏi sẽ hiện ở đây?</h3>
+                <div id="answers-container"></div>
+            </div>
+        </div>
+
+        <div id="game-over-screen" class="overlay">
+            <h1 style="color: #e74c3c;">TẠCH MÔN!</h1>
+            <h2 id="final-score">Số câu sống sót: 0</h2>
+            <button id="btn-restart">Đóng học phí học lại</button>
+        </div>
+    </div>
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>

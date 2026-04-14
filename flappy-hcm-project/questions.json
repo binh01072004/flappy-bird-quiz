@@ -1,0 +1,26 @@
+[
+    {
+        "id": "q1",
+        "q": "Nguyễn Tất Thành ra đi tìm đường cứu nước từ bến cảng Nhà Rồng vào ngày tháng năm nào?",
+        "options": ["5/6/1911", "6/5/1911", "2/9/1945", "19/5/1890"],
+        "ans": 0
+    },
+    {
+        "id": "q2",
+        "q": "Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Versailles năm nào?",
+        "options": ["1917", "1918", "1919", "1920"],
+        "ans": 2
+    },
+    {
+        "id": "q3",
+        "q": "Tác phẩm 'Đường Kách mệnh' xuất bản năm nào?",
+        "options": ["1925", "1927", "1930", "1941"],
+        "ans": 1
+    },
+    {
+        "id": "q4",
+        "q": "Chi bộ cộng sản đầu tiên ở Việt Nam được thành lập vào tháng 3/1929 tại đâu?",
+        "options": ["Nhà số 5D Hàm Long, Hà Nội", "Cửu Long, Hương Cảng", "Quảng Châu, Trung Quốc", "Pác Bó, Cao Bằng"],
+        "ans": 0
+    }
+]
