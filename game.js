@@ -58,6 +58,21 @@ const answersContainer = document.getElementById('answers-container');
 const finalScoreEl = document.getElementById('final-score');
 const godModeToggle = document.getElementById('godModeToggle');
 
+// --- LOGIC CHỌN NHÂN VẬT ---
+let currentAvatar = "🤓"; // Mặc định là mặt kính
+const avatars = document.querySelectorAll('.avatar');
+
+avatars.forEach(avatar => {
+    avatar.addEventListener('click', function() {
+        // Xóa viền vàng ở tất cả nhân vật
+        avatars.forEach(a => a.classList.remove('selected'));
+        // Thêm viền vàng vào nhân vật vừa click
+        this.classList.add('selected');
+        // Lưu lại emoji để lát vẽ lên màn hình
+        currentAvatar = this.getAttribute('data-char');
+    });
+});
+
 // --- DATA PIPELINE ---
 let allQuestions = []; 
 let availableQuestions = []; 
@@ -112,8 +127,16 @@ const bird = {
     x: 50, y: 150, width: 30, height: 30,
     velocity: 0, gravity: 0.15, jump: -4.5,
     draw() {
-        ctx.fillStyle = godMode ? "#e74c3c" : "#f1c40f";
-        ctx.fillRect(this.x, this.y, this.width, this.height);
+        if (godMode) {
+            // Nếu bật bất tử thì vẽ màu đỏ
+            ctx.fillStyle = "#e74c3c";
+            ctx.fillRect(this.x, this.y, this.width, this.height);
+        } else {
+            // Vẽ emoji nhân vật đã chọn
+            ctx.font = "35px Arial"; // Chỉnh cỡ chữ to ra chút cho vừa khung hitbox
+            ctx.textBaseline = "top"; 
+            ctx.fillText(currentAvatar, this.x - 2, this.y - 2); // Căn chỉnh vị trí emoji
+        }
     },
     update() {
         this.velocity += this.gravity;

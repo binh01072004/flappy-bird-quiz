@@ -120,3 +120,38 @@ button {
     color: white; 
     border: 2px solid white; 
 }
+
+/* ==========================================
+   KHU VỰC CHỌN SKIN (NHÂN VẬT)
+   ========================================== */
+#character-selection {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Khoảng cách giữa các skin */
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;  /* Ép kích thước ảnh cho đều nhau */
+    height: 50px;
+    object-fit: contain; /* Chống méo ảnh */
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 12px;
+    border: 3px solid transparent; /* Viền tàng hình để giữ chỗ */
+    transition: all 0.2s ease-in-out; /* Hiệu ứng chuyển động mượt */
+    user-select: none;
+}
+
+/* Hiệu ứng mờ đi một chút khi đưa chuột lướt qua */
+.avatar:hover {
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* HIỆU ỨNG VIỀN VÀNG KHI ĐƯỢC CLICK CHỌN */
+.avatar.selected {
+    border-color: #ffcc00 !important; /* Đổ màu viền vàng */
+    background-color: rgba(255, 204, 0, 0.2); /* Nền vàng nhạt */
+    transform: scale(1.15); /* Phóng to nhân vật lên một xíu cho nổi bật */
+}

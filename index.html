@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flappy Bác Hồ - Quiz Game</title>
+    <title>Flappy Bird - Quiz Game</title>
     
     <link rel="stylesheet" href="style.css">
 
@@ -28,13 +28,22 @@
 
         <canvas id="gameCanvas" width="400" height="600"></canvas>
 
-        <div id="start-screen" class="overlay active">
-            <h1>Vượt Ải Lịch Sử</h1>
-            <p>Qua mỗi cột sẽ có 1 câu hỏi.</p>
+        <div id="start-screen" class="overlay active" style="background-color: #243439; color: white;">
+            <h1 style="color: #ffcc00; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Nhập học</h1>
             
-            <input type="text" id="player-name" placeholder="Nhập tên của bạn..." style="padding: 10px; margin-bottom: 15px; border-radius: 5px; border: none; font-size: 16px; text-align: center; font-weight: bold; width: 200px;">
+            <input type="text" id="player-name" placeholder="Nhập tên" style="padding: 10px; margin-bottom: 20px; border-radius: 8px; border: none; background-color: #37474f; color: white; text-align: center; font-size: 16px; width: 200px;">
             
-            <button id="btn-start">Vào thi!</button>
+            <p style="margin-bottom: 10px; font-size: 18px;">Chọn nhân vật đại diện:</p>
+            
+            <div id="character-selection">
+                <span class="avatar" data-char="🐧">🐧</span>
+                <span class="avatar" data-char="🐥">🐥</span>
+                <span class="avatar" data-char="🐸">🐸</span>
+                <span class="avatar selected" data-char="🤓">🤓</span>
+                <span class="avatar" data-char="👽">👽</span>
+            </div>
+
+            <button id="btn-start" style="margin-top: 20px; padding: 12px 30px; border-radius: 8px; background-color: #78909c; color: white; border: 2px solid white; font-weight: bold; font-size: 18px; cursor: pointer;">Vào thi!</button>
         </div>
 
         <div id="quiz-screen" class="overlay">
@@ -55,4 +64,4 @@
 <script src="game.js"></script>
 
 </body>
-</html> 
+</html>
