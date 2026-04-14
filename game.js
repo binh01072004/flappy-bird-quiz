@@ -119,9 +119,9 @@ let score = 0;
 let animationId;
 let godMode = false;
 
-godModeToggle.addEventListener('change', (e) => {
-    godMode = e.target.checked;
-});
+//godModeToggle.addEventListener('change', (e) => {
+//    godMode = e.target.checked;
+//});
 
 const bird = {
     x: 50, y: 150, width: 30, height: 30,
