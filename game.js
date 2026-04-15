@@ -279,9 +279,31 @@ canvas.addEventListener('mousedown', (e) => {
     if (e.target.id !== 'godModeToggle' && isPlaying && !isPausedForQuiz) bird.flap();
 });
 
-// Gán sự kiện cho 2 nút bấm
-document.getElementById('btn-start').addEventListener('click', resetGame);
-document.getElementById('btn-restart').addEventListener('click', resetGame);
+// --- CÀI ĐẶT NHẠC NỀN ---
+const bgMusic = new Audio('1.mp3'); // Đảm bảo tên file đúng với file nhạc anh tải về
+bgMusic.loop = true;  // Lặp đi lặp lại
+bgMusic.volume = 0.3; // Âm lượng 30%
+
+// Controls
+document.addEventListener('keydown', (e) => {
+    if ((e.code === 'Space' || e.code === 'ArrowUp') && isPlaying && !isPausedForQuiz) bird.flap();
+});
+canvas.addEventListener('mousedown', (e) => {
+    // Không cho chim nhảy nếu click trúng nút checkbox admin
+    if (e.target.id !== 'godModeToggle' && isPlaying && !isPausedForQuiz) bird.flap();
+});
+
+// Gán sự kiện cho 2 nút bấm (Đã tích hợp bật nhạc)
+document.getElementById('btn-start').addEventListener('click', () => {
+    bgMusic.play().catch(err => console.log("Trình duyệt chặn phát nhạc:", err));
+    resetGame();
+});
+
+document.getElementById('btn-restart').addEventListener('click', () => {
+    // Đảm bảo nhạc vẫn tiếp tục kêu khi đóng tiền học lại
+    bgMusic.play().catch(err => console.log("Trình duyệt chặn phát nhạc:", err));
+    resetGame();
+});
 
 // Load data lúc mở trang
 fetchQuestions();
