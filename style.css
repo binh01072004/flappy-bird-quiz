@@ -155,3 +155,26 @@ button {
     background-color: rgba(255, 204, 0, 0.2); /* Nền vàng nhạt */
     transform: scale(1.15); /* Phóng to nhân vật lên một xíu cho nổi bật */
 }
+/* ==========================================
+   HIỆU ỨNG CHỮ CHẠY THỜI SỰ (NEWS TICKER)
+   ========================================== */
+.ticker-text {
+    /* Cho chữ chạy đều (linear) trong 15s, lặp lại mãi mãi (infinite) */
+    animation: ticker-slide 10s linear infinite;
+    width: max-content; /* Đảm bảo khung đủ rộng để chứa hết tên */
+}
+
+/* Tính năng phụ: Di chuột vào thì tạm dừng chạy */
+.ticker-text:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+/* Trục tọa độ di chuyển của Animation */
+@keyframes ticker-slide {
+    /* Bắt đầu: Xuất phát từ tít mép bên phải (khuất màn hình) */
+    0% { transform: translateX(100%); }
+    
+    /* Kết thúc: Chui tọt sang mép bên trái (khuất màn hình) */
+    100% { transform: translateX(-100%); }
+}

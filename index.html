@@ -20,11 +20,15 @@
 -->
     <div id="game-container">
         
-        <div id="leaderboard" style="position: absolute; top: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.95); padding: 8px 10px; box-sizing: border-box; z-index: 100; display: flex; align-items: center; border-bottom: 2px solid #f1c40f;">
-            <h3 style="margin: 0 10px 0 0; color: #d35400; font-size: 10px; white-space: nowrap;">🏆Học Bá:</h3>
-            <ol id="top-players-list" style="margin: 0; padding: 0 0 0 15px; font-size: 12px; color: #333; font-weight: bold; display: flex; gap: 20px; white-space: nowrap; overflow-x: auto;">
-                <li>Đang tải...</li>
-            </ol>
+        <div id="leaderboard" style="position: absolute; top: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.95); padding: 8px 0; box-sizing: border-box; z-index: 100; display: flex; align-items: center; border-bottom: 2px solid #f1c40f; overflow: hidden;">
+    
+            <h3 style="margin: 0; padding: 0 10px; color: #d35400; font-size: 14px; white-space: nowrap; z-index: 2; background: rgba(255, 255, 255, 0.95);">🏆 Top Học Bá:</h3>
+    
+            <div style="flex-grow: 1; overflow: hidden; position: relative;">
+                <ol id="top-players-list" class="ticker-text" style="margin: 0; padding: 0; font-size: 12px; color: #333; font-weight: bold; display: flex; gap: 40px; white-space: nowrap; list-style-position: inside;">
+                    <li>Đang tải...</li>
+                </ol>
+            </div>
         </div>
 
         <canvas id="gameCanvas" width="400" height="600"></canvas>
