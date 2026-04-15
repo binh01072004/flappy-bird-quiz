@@ -1,26 +1,270 @@
 [
     {
         "id": "q1",
-        "q": "Nguyễn Tất Thành ra đi tìm đường cứu nước từ bến cảng Nhà Rồng vào ngày tháng năm nào?",
-        "options": ["5/6/1911", "6/5/1911", "2/9/1945", "19/5/1890"],
-        "ans": 0
+        "q": "Theo Chủ tịch Hồ Chí Minh, để giải phóng được dân tộc, giải phóng giai cấp, giải phóng con người, lực lượng cần đoàn kết là:",
+        "options": [
+            "Đoàn kết các giai cấp",
+            "Đoàn kết các tầng lớp",
+            "Đoàn kết các dân tộc thiểu số",
+            "Đoàn kết tất cả các lực lượng có thể tập hợp được"
+        ],
+        "ans": 3
     },
     {
         "id": "q2",
-        "q": "Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Versailles năm nào?",
-        "options": ["1917", "1918", "1919", "1920"],
-        "ans": 2
+        "q": "Với Chủ tịch Hồ Chí Minh, đại đoàn kết dân tộc phải luôn được nhận thức là vấn đề:",
+        "options": [
+            "Có ý nghĩa trong từng giai đoạn nhất định của cách mạng",
+            "Quan trọng của cách mạng",
+            "Lâu dài của cách mạng",
+            "Có ý nghĩa chiến lược, quyết định thành bại của cách mạng"
+        ],
+        "ans": 3
     },
     {
         "id": "q3",
-        "q": "Tác phẩm 'Đường Kách mệnh' xuất bản năm nào?",
-        "options": ["1925", "1927", "1930", "1941"],
+        "q": "Điền cụm từ còn thiếu vào dấu ba chấm (...) trong đoạn trích của Hồ Chí Minh: \"Đoàn kết trong Mặt trận Việt Minh, nhân dân ta đã làm ... \":",
+        "options": [
+            "Cách mạng giải phóng dân tộc",
+            "Cách mạng Tháng Tám thành công, lập nên nước Việt Nam dân chủ cộng hòa",
+            "Cách mạng xã hội chủ nghĩa",
+            "Cách mạng dân tộc dân chủ nhân dân"
+        ],
         "ans": 1
     },
     {
         "id": "q4",
-        "q": "Chi bộ cộng sản đầu tiên ở Việt Nam được thành lập vào tháng 3/1929 tại đâu?",
-        "options": ["Nhà số 5D Hàm Long, Hà Nội", "Cửu Long, Hương Cảng", "Quảng Châu, Trung Quốc", "Pác Bó, Cao Bằng"],
+        "q": "Theo Hồ Chí Minh, đại đoàn kết dân tộc là đại đoàn kết:",
+        "options": [
+            "Lực lượng",
+            "Tầng lớp",
+            "Toàn dân",
+            "Giai cấp"
+        ],
+        "ans": 2
+    },
+    {
+        "id": "q5",
+        "q": "Theo Hồ Chí Minh, đại đoàn kết dân tộc có nghĩa là:",
+        "options": [
+            "Phải tập hợp mọi tầng lớp",
+            "Phải tập hợp mọi lực lượng",
+            "Phải tập hợp họ thành một lực lượng",
+            "Phải tập hơp được tất cả mọi người dân vào một khối trong cuộc đấu tranh chung"
+        ],
+        "ans": 3
+    },
+    {
+        "id": "q6",
+        "q": "Theo Hồ Chí Minh, trong quá trình xây dựng khối đại đoàn kết dân tộc Đảng cần phải:",
+        "options": [
+            "Đứng trên lập trường của giai cấp công nhân",
+            "Đứng trên lập trường giai cấp công nhân, giải quyết hài hòa mối quan hệ giữa giai cấp và dân tộc",
+            "Đứng trên lập trường của giai cấp nông dân",
+            "Giải quyết hài hòa mối quan hệ giữa giai cấp - dân tộc"
+        ],
+        "ans": 1
+    },
+    {
+        "id": "q7",
+        "q": "Theo Hồ Chí Minh, để xây dựng khối đại đoàn kết toàn dân phải kế thừa:",
+        "options": [
+            "Truyền thống yêu nước, tin dân của dân tộc",
+            "Truyền thống nhân nghĩa, cố kết của dân tộc",
+            "Truyền thống đoàn kết, yêu nước của dân tộc",
+            "Truyền thống yêu nước, nhân nghĩa và đoàn kết của dân tộc"
+        ],
+        "ans": 3
+    },
+    {
+        "id": "q8",
+        "q": "Theo Hồ Chí Minh, để thực hành đoàn kết rộng rãi cần có:",
+        "options": [
+            "Niềm tin vào nhân dân",
+            "Đường lối đại đoàn kết đúng đắn",
+            "Đảng cộng sản lãnh đạo",
+            "Truyền thống đoàn kết của dân tộc"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q9",
+        "q": "Theo Hồ Chí Minh, điều kiện thực hiện đại đoàn kết dân tộc bao gồm những điều kiện, trừ:",
+        "options": [
+            "Niềm tin vào nhân dân",
+            "Kế thừa truyền thống yêu nước - nhân nghĩa - đoàn kết của dân tộc",
+            "Lòng khoan dung độ lượng đối với con người",
+            "Đạo đức cùa người làm cách mạng"
+        ],
+        "ans": 3
+    },
+    {
+        "id": "q10",
+        "q": "Hồ Chí Minh thành lập Mặt trận Việt Minh vào năm:",
+        "options": [
+            "1930",
+            "1936",
+            "1941",
+            "1945"
+        ],
+        "ans": 2
+    },
+    {
+        "id": "q11",
+        "q": "Theo Hồ Chí Minh, nguyên tắc cơ bản xây dựng khối đại đoàn kết dân tộc là:",
+        "options": [
+            "Trên nền tảng giai cấp công nhân",
+            "Trên nền tảng giai cấp nông dân",
+            "Trên nền tảng khối liên minh công - nông - trí thức",
+            "Trên nền tảng khối liên minh công - nông - trí thức, đặt dưới sự lãnh đạo của Đảng"
+        ],
+        "ans": 3
+    },
+    {
+        "id": "q12",
+        "q": "Theo Hồ Chí Minh, một trong những nguyên tắc hoạt động của Mặt trận dân tộc thống nhất là:",
+        "options": [
+            "Đảm bảo lợi ích tối cao của dân tộc",
+            "Đảm bảo lợi ích tối cao của giai cấp công nhân và nông dân",
+            "Đảm bảo lợi ích tối cao của dân tộc, quyền lợi cơ bản của các tầng lớp nhân dân",
+            "Đảm bảo lợi ích của giai cấp công nhân và trí thức"
+        ],
+        "ans": 2
+    },
+    {
+        "id": "q13",
+        "q": "Theo Hồ Chí Minh, nguyên tắc cơ bản về hoạt động của mặt trận thống nhất bao gồm những nguyên tắc sau, trừ:",
+        "options": [
+            "Hoạt động trên cơ sở đảm bảo lợi ích tối cao của dân tộc, quyền lợi cơ bản của các tầng lớp nhân dân",
+            "Hoạt động trên cơ sở quy tụ tập hợp đông đảo mọi giai cấp, tầng lớp, dân tộc tôn giáo, đảng phái",
+            "Hoạt động theo nguyên tắc hiệp thương dân chủ, bảo đảm đoàn kết ngày càng rộng rãi, bền vững",
+            "Hoạt động theo nguyên tắc đoàn kết chặt chẽ, lâu dài, đoàn kết thật sự, chân thành, thân ái giúp đỡ nhau cùng tiến bộ"
+        ],
+        "ans": 1
+    },
+    {
+        "id": "q14",
+        "q": "Tác phầm \"Thường thức chính trị\" trong đó có đoạn: \"Ở nước ta chính quyền là của nhân dân, do nhân dân làm chủ... Nhân dân là ông chủ nắm chính quyền. Nhân dân bầu ra đại biểu thay mặt mình thi hành chính quyền ấy. Thế là dân chủ\" được Chủ tịch Hồ Chí Minh viết vào năm:",
+        "options": [
+            "1945",
+            "1948",
+            "1951",
+            "1953"
+        ],
+        "ans": 3
+    },
+    {
+        "id": "q15",
+        "q": "Nói về đại đoàn kết dân tộc, Hồ Chí Minh đã chỉ rõ: \" Đại đoàn kết trước hết là phải đoàn kết đại đa số nhân dân, mà đại đa số nhân dân là công nhân, nông dân và các tầng lớp nhân dân lao động khác. Đó là nền gốc của đại đoàn kết\". Luận điểm này của Người là bàn về vấn đề:",
+        "options": [
+            "Nội dung của đại đoàn kết dân tộc",
+            "Hình thức tổ chức của khối đại đoàn kết dân tộc",
+            "Vai trò của đại đoàn kết dân tộc",
+            "Nguyên tắc xây dựng và hoạt động của khối đại đoàn kết dân tộc"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q16",
+        "q": "Nói về đại đoàn kết dân tộc, Hồ Chí Minh đã chỉ rõ: \" đoàn kết là sức mạnh của chúng ta. Đoàn kết chặt chẽ thì nhất định chúng ta có thể khắc phục mọi khó khăn, phát triển mọi thuận lợi, làm tròn nhiệm vụ nhân dân giao phó\". Luận điểm này của Người là nói về vấn đề gì sau đây:",
+        "options": [
+            "Vai trò của đại đoàn kết dân tộc",
+            "Hình thức tổ chức của đại đoàn kết dân tộc",
+            "Nguyên tắc xây dựng và hoạt động của đại đoàn kết dân tộc",
+            "Nội dung của đại đoàn kết dân tộc"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q17",
+        "q": "Bàn về đại đoàn kết dân tộc, Hồ Chí Minh đã chỉ rõ: \" lực lượng chủ yếu trong khối đoàn kết dân tộc là công nông, cho nên liên minh công nông là nền tảng của mặt trận dân tộc thống nhất\". Luận điểm này của Người là nói về vấn đề gì sau đây:",
+        "options": [
+            "Nguyên tắc xây dựng và hoạt động của đại đoàn kết dân tộc",
+            "Nội dung của đại đoàn kết dân tộc",
+            "Vai trò của đại đoàn kết dân tộc",
+            "Hình thức tổ chức của đại đoàn kết dân tộc"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q18",
+        "q": "Theo Hồ Chí Minh, đoàn kết tạo ra sức mạnh to lớn, quyết định thành công của sự nghiệp cách mạng:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 1
+    },
+    {
+        "id": "q19",
+        "q": "Theo Hồ Chí Minh, đại đoàn kết dân tộc là mục tiêu nhiệm vụ hàng đầu của Đảng và dân tộc trong mọi thời kỳ:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q20",
+        "q": "Theo Hồ Chí Minh, \"trước Cách mạng Tháng Tám và trong kháng chiến thì nhiệm vụ tuyên huấn là làm cho đồng bào hiểu được mấy việc: một là đoàn kêt ... \"",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q21",
+        "q": "Theo Hồ Chí Mnh, đại đoàn kết là sự nghiệp của quần chúng, do quần chúng, vì quần chúng:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q22",
+        "q": "Theo Hồ Chí Minh, lực lượng đại đoàn kết toàn dân bao gồm tất cả người Việt Nam sống ở trong nước và sống ở nước ngoài:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 1
+    },
+    {
+        "id": "q23",
+        "q": "Theo Hồ Chí Minh, mặt trận dân tộc thống nhất là hiện thân của khối đại đoàn kết toàn dân vì nó có sức mạnh và quy mô lớn:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 1
+    },
+    {
+        "id": "q24",
+        "q": "Theo Hồ Chí Minh, mỗi thời kỳ khác nhau có những hình thức mặt trận khác nhau nhưng về thực chất đó chỉ là một tổ chức chính trị xã hội rộng lớn của nhân dân:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 0
+    },
+    {
+        "id": "q25",
+        "q": "Hồ Chí Minh thành lập mặt trận Việt Minh vào năm 1945:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "ans": 1
+    },
+    {
+        "id": "q26",
+        "q": "Theo Hồ Chí Minh, sức mạnh của dân tộc Việt Nam là sức mạnh của chủ nghĩa yêu nước và ý thức tự lực tự cường dân tộc:",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
         "ans": 0
     }
 ]
